@@ -11,7 +11,7 @@ import { withProps, compose, lifecycle } from "recompose";
 const MapWithADirectionsRenderer = compose(
   withProps({
     googleMapURL:
-      "https://maps.googleapis.com/maps/api/js?key=AIzaSyA_rtOADiUmm7w1ueQv0JId_HZeBUr82Lc&v=3.exp&libraries=geometry,drawing,places",
+      "https://maps.googleapis.com/maps/api/js?key=..............&v=3.exp&libraries=geometry,drawing,places",
     loadingElement: <div style={{ height: `100%` }} />,
     containerElement: <div style={{ height: `500px` }} />,
     mapElement: <div style={{ height: `100%` }} />
